@@ -28,6 +28,21 @@ function App() {
       .catch(error => {
         console.error('Error al hacer la solicitud:', error);
       });
+
+    axios.get(url2)
+    .then(response => {
+        console.log(response.data);
+    
+        if (response.data.results && response.data.results.length > 0) {
+            const result = response.data.results[0];
+            console.log(`direccion: ${result.formatted}`);
+        } else {
+            console.log('no se encontro tu ubicacion');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
   }, [ciudad]);
 
   const buscarLugar = (event) => {
