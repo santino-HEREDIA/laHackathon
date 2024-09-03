@@ -37,7 +37,7 @@ function App() {
 
       <input 
         type="text" 
-        placeholder="Ingresa una ciudad" 
+        placeholder="pone la ciudad" 
         value={lugar} 
         onChange={buscarLugar}/>
 
