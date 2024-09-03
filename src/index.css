@@ -43,7 +43,21 @@ button {
 
 div {
   border-radius: 8px;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 4px 8px rgba(100, 251, 146, 0.2);
+  background-color: #251b1b;
+  box-shadow: 5px 5px 10px azure;
   color: #f4f4f4;
+  margin: 35px 0;
+}
+#BoxText{
+  width: 50%;
+  height: 30px;
+  padding: 20px;
+  background-color: #cacaca;
+  color: black;
+  border: solid;
+  border: black;
+  border-radius: 8px;
+}
+#hijo {
+  background-color: #352b2b;
 }
