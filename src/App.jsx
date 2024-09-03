@@ -35,7 +35,6 @@ function App() {
   return (
     <>
       <nav>
-        <img src="" alt="Logo" />
         <ul className='nav__list'>
           <li className='nav__item'><a className='nav__link' href="#">Contaminación</a></li>
           <li className='nav__item'><a className='nav__link' href="#">Sobre Nosotros</a></li>
